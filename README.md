@@ -6,7 +6,7 @@ Project Setup
 
 Server :
 
-Install dependencies using npm install after that start server with node index.js
+Start the server  with node index.js
 
 Client:
 
@@ -15,3 +15,5 @@ Install dependencies using npm install and run the client using npx expo start
 You can run the project on android and you will need Android Studio for emulator .
 
 To display the restaurants data I used 'http://10.0.2.2:3000/restaurants'  which is equal to 'http://localhost:3000/restaurants' . That domain is the localhost for android emulator devices.
+
+For emulator I used a Google Pixel 3a with API 35
