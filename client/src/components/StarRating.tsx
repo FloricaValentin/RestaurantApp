@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { View, TouchableOpacity, StyleSheet, Text } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
