@@ -5,6 +5,7 @@ This project is a full-stack application demonstrating a basic backend API using
 Project Setup
 
 Server :
+
 Install dependencies using npm install after that start server with node index.js
 
 Client:
