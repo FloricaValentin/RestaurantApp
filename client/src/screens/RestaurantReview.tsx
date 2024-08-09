@@ -8,7 +8,6 @@ import {
   Alert, 
   ScrollView, 
   KeyboardAvoidingView, 
-  Platform 
 } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import StarRating from '../components/StarRating';
@@ -38,7 +37,6 @@ const RestaurantReview = ({ route, navigation }: any) => {
 
   return (
     <KeyboardAvoidingView
-      behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
       style={styles.container}
     >
       <ScrollView contentContainerStyle={styles.scrollViewContent}>
